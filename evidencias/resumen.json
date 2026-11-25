@@ -1,0 +1,114 @@
+{
+  "entorno": {
+    "fecha_colombia": "2026-11-24T19:22:38-05:00",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "so": "Linux",
+    "arquitectura": "x86_64",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "variables_blas_openmp": 1,
+    "n_terminos": 3669,
+    "n_pesos": 11007,
+    "n_sesgos": 3,
+    "exclusiones": 0,
+    "desacuerdos_AB": 0
+  },
+  "resultados": {
+    "A": {
+      "aciertos": 20,
+      "n": 27,
+      "f1": 0.7372549019607844,
+      "tiempos": [
+        205.809,
+        224.377,
+        253.311
+      ],
+      "matriz": [
+        [
+          6,
+          1,
+          2
+        ],
+        [
+          1,
+          8,
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ]
+      ],
+      "grupos": {
+        "directo": [
+          8,
+          9
+        ],
+        "distractor": [
+          5,
+          9
+        ],
+        "indirecto": [
+          7,
+          9
+        ]
+      },
+      "parametros_B": 44040,
+      "archivo_B": 44506,
+      "traza_pico_B": 48454
+    },
+    "B": {
+      "aciertos": 20,
+      "n": 27,
+      "f1": 0.7372549019607844,
+      "tiempos": [
+        210.066,
+        227.021,
+        263.265
+      ],
+      "matriz": [
+        [
+          6,
+          1,
+          2
+        ],
+        [
+          1,
+          8,
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ]
+      ],
+      "grupos": {
+        "directo": [
+          8,
+          9
+        ],
+        "distractor": [
+          5,
+          9
+        ],
+        "indirecto": [
+          7,
+          9
+        ]
+      },
+      "parametros_B": 11031,
+      "archivo_B": 11721,
+      "traza_pico_B": 59219
+    }
+  },
+  "etiquetas": [
+    "BECAS",
+    "CERTIFICADOS",
+    "HORARIOS"
+  ]
+}
